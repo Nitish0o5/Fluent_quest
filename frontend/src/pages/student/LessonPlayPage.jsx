@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { lessonsAPI } from '../../api/lessons.api';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaCheck, FaTimes, FaLightbulb, FaTrophy, FaBolt, FaHeart } from 'react-icons/fa';
-import { sounds } from '../../utils/sounds';
+import { sounds } from '../../sounds';
 import { useToast } from '../../context/ToastContext';
 
 const MAX_HEARTS = 5;
